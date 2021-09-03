@@ -23,7 +23,7 @@ const showBook = (books, data) => {
     const dataFound = document.getElementById('data-find');
     dataFound.textContent = '';
     dataFound.innerHTML = `
-    <h3 class="card-text text-center mb-3">Data found: ${data.numFound}</h3>
+    <h3 class="card-text text-center mb-3"> <span class='text-danger'>Data found:</span> ${data.numFound}</h3>
     `
     console.log(books);
     const searchResult = document.getElementById('search-result');
